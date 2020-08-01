@@ -2,15 +2,22 @@
 <html>
   <head>
     <title>DeviceMailer</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': true %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': true %>
-    
+    <%= csrf_meta_tags %>
   </head>
 
   <body>
-    <%= yield %>
+
+    <%= render 'layouts/nav' %>
+    <%= bootstrap_flash %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'layouts/foot' %>
+
+
   </body>
 </html>

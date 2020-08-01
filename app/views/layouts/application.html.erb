@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DeviceMailer</title>
-
+    <title>Karthi's Article</title>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': true %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': true %>
     <%= csrf_meta_tags %>
   </head>
-
   <body>
-
     <%= render 'layouts/nav' %>
     <%= bootstrap_flash %>
     <div class="container">
       <%= yield %>
     </div>
-
     <%= render 'layouts/foot' %>
-
-
   </body>
 </html>

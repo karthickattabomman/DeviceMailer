@@ -11,7 +11,9 @@
 #
 default: &default
   adapter: mysql2
+  #adapter: pgsql
   encoding: utf8mb4
+  #encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: karthick
   password: password

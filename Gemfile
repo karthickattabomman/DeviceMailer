@@ -31,6 +31,8 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 
 group :development, :test do
